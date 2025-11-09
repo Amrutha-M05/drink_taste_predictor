@@ -1,0 +1,51 @@
+ID,Drink_Name,Sweetness (1-10),R,G,B,Temperature (°C),Ingredients_Count,Rating (1-5),Liked (1/0)
+1,Sweet Orange Juice,8,255,165,0,8,3,4.5,1
+2,Black Coffee,1,50,30,20,70,2,2.0,0
+3,Vanilla Milkshake,9,255,228,196,5,5,4.8,1
+4,Green Tea,2,180,200,140,75,2,2.5,0
+5,Chocolate Milk,7,139,69,19,10,4,4.2,1
+6,Lemon Water,3,240,248,255,4,3,2.8,0
+7,Mango Smoothie,8,255,185,100,6,4,4.6,1
+8,Espresso,1,40,25,15,85,1,2.2,0
+9,Strawberry Shake,9,255,182,193,4,5,4.9,1
+10,Plain Water,1,200,220,240,25,1,3.0,1
+11,Apple Juice,7,220,180,60,10,2,4.3,1
+12,Hot Chocolate,8,139,69,19,65,4,4.4,1
+13,Iced Tea,4,180,160,80,5,3,3.2,1
+14,Banana Smoothie,7,255,220,120,7,4,4.1,1
+15,Cola,9,100,50,20,6,4,4.0,1
+16,Mint Lemonade,6,200,255,100,3,4,3.8,1
+17,Cappuccino,5,210,180,150,68,4,3.5,1
+18,Watermelon Juice,7,255,100,100,8,2,4.3,1
+19,Coconut Water,3,245,255,230,24,1,3.2,1
+20,Berry Smoothie,6,200,100,160,6,5,4.0,1
+21,Pineapple Juice,7,255,200,80,9,2,4.4,1
+22,Masala Chai,6,210,150,100,80,5,3.9,1
+23,Carrot Juice,6,255,140,50,10,2,3.5,1
+24,Iced Coffee,3,150,120,80,4,3,2.8,0
+25,Grape Juice,8,128,0,128,7,2,4.5,1
+26,Ginger Tea,2,200,180,100,78,3,2.3,0
+27,Peach Smoothie,8,255,218,185,5,4,4.6,1
+28,Tomato Juice,2,200,60,50,9,2,2.0,0
+29,Rose Milk,9,255,192,203,12,4,4.7,1
+30,Lime Soda,7,230,255,150,5,4,3.9,1
+31,Avocado Shake,6,180,220,150,6,4,3.6,1
+32,Buttermilk,2,245,240,230,22,3,3.1,1
+33,Pomegranate Juice,7,180,50,50,11,2,4.2,1
+34,Chocolate Smoothie,9,120,60,19,4,5,4.8,1
+35,Cold Brew,2,60,40,30,6,2,2.5,0
+36,Papaya Juice,6,255,180,100,10,2,3.7,1
+37,Green Smoothie,4,150,220,180,7,5,3.4,1
+38,Sweet Lassi,8,255,228,196,15,4,4.5,1
+39,Cucumber Juice,3,200,240,200,12,2,3.0,1
+40,Mocha,6,150,100,60,65,4,3.8,1
+41,Kiwi Juice,6,190,220,150,9,2,3.9,1
+42,Iced Mocha,7,160,110,70,5,4,4.1,1
+43,Almond Milk,4,245,245,245,20,3,3.3,1
+44,Mixed Fruit Juice,7,255,165,100,8,4,4.4,1
+45,Honey Lemon Tea,5,255,220,200,72,4,3.6,1
+46,Blueberry Smoothie,7,140,100,200,4,4,4.2,1
+47,Iced Latte,5,220,200,180,6,4,3.7,1
+48,Beetroot Juice,3,180,70,60,11,2,2.9,0
+49,Mango Lassi,8,255,200,150,14,4,4.6,1
+50,Cranberry Juice,5,220,50,50,8,2,3.5,1
