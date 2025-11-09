@@ -1,4 +1,4 @@
-ID,Drink_Name,Sweetness (1-10),R,G,B,Temperature (°C),Ingredients_Count,Rating (1-5),Liked (1/0)
+ID,Drink_Name,Sweetness,R,G,B,Temperature,Ingredients_Count,Rating,Liked
 1,Sweet Orange Juice,8,255,165,0,8,3,4.5,1
 2,Black Coffee,1,50,30,20,70,2,2.0,0
 3,Vanilla Milkshake,9,255,228,196,5,5,4.8,1
