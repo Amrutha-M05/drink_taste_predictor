@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,CV_Score_Mean,CV_Score_Std
+Decision Tree,100.0,100.0,100.0,100.0,90.0,9.354143466934852
+Random Forest,100.0,100.0,100.0,100.0,97.5,5.0
+SVM,100.0,100.0,100.0,100.0,85.0,9.354143466934852
