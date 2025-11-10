@@ -55,7 +55,7 @@ This project uses machine learning to predict drink preferences based on measura
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusernam/drink-taste-predictor.git
+git clone https://github.com/Amrutha-M05/drink-taste-predictor.git
 cd drink-taste-predictor
 ```
 
