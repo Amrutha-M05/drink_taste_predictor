@@ -20,36 +20,35 @@ This project uses machine learning to predict drink preferences based on measura
 
 ## 📁 Project Structure
 
-
-drink-taste-predictor/
-    ├── app.py                      # Flask backend API
-    ├── streamlit_app.py            # Streamlit web app
-    ├── drink_taste.csv             # Dataset (50 drinks)
-    ├── requirements.txt            # Python dependencies
-    ├── README.md                   # This file
-    ├── .gitignore                  # Git ignore rules
-    ├── templates/
-    │   └── index.html             # Flask web UI
-    └── models/                    # Auto-generated trained models
-    ├── dt_model.pkl
-    ├── rf_model.pkl
-    ├── svm_model.pkl
-    └── scaler.pkl
+    drink-taste-predictor/
+        ├── app.py                      # Flask backend API
+        ├── streamlit_app.py            # Streamlit web app
+        ├── drink_taste.csv             # Dataset (50 drinks)
+        ├── requirements.txt            # Python dependencies
+        ├── README.md                   # This file
+        ├── .gitignore                  # Git ignore rules
+        ├── templates/
+        │   └── index.html             # Flask web UI
+        └── models/                    # Auto-generated trained models
+        ├── dt_model.pkl
+        ├── rf_model.pkl
+        ├── svm_model.pkl
+        └── scaler.pkl
 
     ## 📁 Output Structure:
     
     results_graphs/
-    ├── 1_model_performance_comparison.png
-    ├── 2_confusion_matrices.png
-    ├── 3_roc_curves.png
-    ├── 4_feature_importance.png
-    ├── 5_dataset_analysis.png
-    ├── 6_decision_tree_structure.png
-    ├── Decision_Tree_classification_report.csv
-    ├── Random_Forest_classification_report.csv
-    ├── SVM_classification_report.csv
-    ├── overall_model_comparison.csv
-    └── dataset_statistics.csv
+        ├── 1_model_performance_comparison.png
+        ├── 2_confusion_matrices.png
+        ├── 3_roc_curves.png
+        ├── 4_feature_importance.png
+        ├── 5_dataset_analysis.png
+        ├── 6_decision_tree_structure.png
+        ├── Decision_Tree_classification_report.csv
+        ├── Random_Forest_classification_report.csv
+        ├── SVM_classification_report.csv
+        ├── overall_model_comparison.csv
+        └── dataset_statistics.csv
 
 
 ## 🚀 Quick Start
