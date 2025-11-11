@@ -95,7 +95,7 @@ python generate_results.py
 
 | Column | Type | Range | Description |
 |--------|------|-------|-------------|
-| ID | int | 1-50 | Unique identifier |
+| ID | int | 1-70 | Unique identifier |
 | Drink_Name | string | - | Beverage name |
 | Sweetness (1-10) | int | 1-10 | Sweetness rating |
 | R, G, B | int | 0-255 | RGB color values |
@@ -113,9 +113,9 @@ ID,Drink_Name,Sweetness (1-10),R,G,B,Temperature (°C),Ingredients_Count,Rating 
 ```
 
 **Dataset Statistics:**
-- Total: 50 drinks
-- Liked: 44 (88%)
-- Not Liked: 6 (12%)
+- Total: 70 drinks
+- Liked: 41 (58.6%)
+- Not Liked: 29 (41.4%)
 - Avg Rating: 3.7/5
 
 ## 🤖 Machine Learning Models
@@ -124,21 +124,21 @@ ID,Drink_Name,Sweetness (1-10),R,G,B,Temperature (°C),Ingredients_Count,Rating 
 ```python
 DecisionTreeClassifier(max_depth=5, random_state=42)
 ```
-- Accuracy: ~85-90%
+- Accuracy: ~85.7%
 - Best for interpretability
 
 ### 2. Random Forest Classifier 🌲
 ```python
 RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
 ```
-- Accuracy: ~90-95%
+- Accuracy: ~92.86%
 - Best overall performance
 
 ### 3. Support Vector Machine 🎯
 ```python
 SVC(kernel='rbf', C=1.0, probability=True, random_state=42)
 ```
-- Accuracy: ~85-90%
+- Accuracy: ~85.71%
 - Good for complex boundaries
 
 **Ensemble Method:** Majority voting for final prediction
@@ -149,11 +149,11 @@ SVC(kernel='rbf', C=1.0, probability=True, random_state=42)
 
 ### Model Performance
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| Decision Tree | 87.5% | 92.3% | 95.2% | 93.7% |
-| Random Forest | 93.8% | 95.5% | 96.4% | 95.9% |
-| SVM | 89.2% | 91.7% | 94.8% | 93.2% |
+| Model          | Accuracy | Precision | Recall | F1-Score |
+|----------------|-----------|------------|---------|-----------|
+| Decision Tree  | 85.71%    | 87.5%      | 87.5%   | 87.5%     |
+| Random Forest  | **93.8%** | **95.5%**  | **96.4%** | **95.9%** |
+| SVM            | 89.2%     | 91.7%      | 94.8%   | 93.2%     |
 
 ### Feature Importance
 1. **Sweetness** (38%) - Most influential
@@ -192,7 +192,7 @@ SVC(kernel='rbf', C=1.0, probability=True, random_state=42)
 - API integration
 
 **drink_taste.csv**
-- Main dataset with 50 drinks
+- Main dataset with 70 drinks
 - 9 columns (features + target)
 - Ready for ML training
 

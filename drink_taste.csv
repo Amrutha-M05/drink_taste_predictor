@@ -49,3 +49,23 @@ ID,Drink_Name,Sweetness (1-10),R,G,B,Temperature (°C),Ingredients_Count,Rating 
 48,Beetroot Juice,3,180,70,60,11,2,2.9,0
 49,Mango Lassi,8,255,200,150,14,4,4.6,1
 50,Cranberry Juice,5,220,50,50,8,2,3.5,1
+51,Bitter Gourd Juice,1,120,160,120,10,2,1.5,0
+52,Unsweetened Black Tea,2,150,120,80,75,2,2.0,0
+53,Plain Soda,1,230,230,230,6,2,2.5,0
+54,Strong Espresso Shot,1,30,20,10,90,1,1.8,0
+55,Unsweetened Green Juice,2,100,150,80,8,3,2.3,0
+56,Salted Buttermilk,3,240,240,230,20,3,2.9,0
+57,Plain Herbal Tea,2,190,180,150,70,2,2.6,0
+58,Bitter Almond Milk,3,245,245,245,25,3,2.4,0
+59,Overheated Coffee,1,60,40,30,95,2,1.9,0
+60,Low Sugar Lemonade,3,255,255,220,5,3,2.5,0
+61,Sour Tamarind Drink,2,200,100,50,10,2,2.1,0
+62,Unflavored Whey Drink,2,230,230,220,15,3,2.3,0
+63,Overbrewed Tea,1,120,100,60,85,2,1.7,0
+64,Plain Cumin Water,1,230,230,200,30,2,2.0,0
+65,Bitter Herbal Decoction,1,90,100,70,80,3,1.5,0
+66,Stale Juice,2,200,100,80,25,2,1.8,0
+67,Watery Coffee,2,160,130,100,60,2,2.2,0
+68,Sour Yogurt Drink,3,250,250,240,18,3,2.4,0
+69,Unripe Fruit Juice,3,200,180,100,9,2,2.0,0
+70,Too Hot Chai,2,210,180,120,90,4,2.2,0
