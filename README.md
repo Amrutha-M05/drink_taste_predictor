@@ -151,8 +151,8 @@ SVC(kernel='rbf', C=1.0, probability=True, random_state=42)
 | Model          | Accuracy | Precision | Recall | F1-Score |
 |----------------|-----------|------------|---------|-----------|
 | Decision Tree  | 85.71%    | 87.5%      | 87.5%   | 87.5%     |
-| Random Forest  | **93.8%** | **95.5%**  | **96.4%** | **95.9%** |
-| SVM            | 89.2%     | 91.7%      | 94.8%   | 93.2%     |
+| Random Forest  | **92.8%** | **100.0%** | **87.5**| **93.3**  |
+| SVM            | 85.71%    | 100.0%      | 75.5%   | 85.71%   |
 
 ### Feature Importance
 1. **Sweetness** (38%) - Most influential
