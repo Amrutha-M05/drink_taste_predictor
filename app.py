@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ===============================================
-# 🧠 TRAIN AND SAVE MODELS (Overfitting-Resistant)
+#  TRAIN AND SAVE MODELS
 # ===============================================
 def train_and_save_models():
     print("🔄 Training models from drink_taste.csv...")
@@ -40,7 +40,7 @@ def train_and_save_models():
     kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
     # ===============================
-    # 🌳 Decision Tree (Pruned)
+    # 🌳 Decision Tree 
     # ===============================
     print("🤖 Training Decision Tree...")
     dt_model = DecisionTreeClassifier(

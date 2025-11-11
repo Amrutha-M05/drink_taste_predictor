@@ -23,7 +23,7 @@ This project uses machine learning to predict drink preferences based on measura
     drink-taste-predictor/
         ├── app.py                      # Flask backend API
         ├── streamlit_app.py            # Streamlit web app
-        ├── drink_taste.csv             # Dataset (50 drinks)
+        ├── drink_taste.csv             # Dataset (70 drinks)
         ├── requirements.txt            # Python dependencies
         ├── README.md                   # This file
         ├── .gitignore                  # Git ignore rules
@@ -121,21 +121,21 @@ ID,Drink_Name,Sweetness (1-10),R,G,B,Temperature (°C),Ingredients_Count,Rating 
 
 ### 1. Decision Tree Classifier 🌳
 ```python
-DecisionTreeClassifier(max_depth=5, random_state=42)
+DecisionTreeClassifier(max_depth=4, random_state=42)
 ```
 - Accuracy: ~85.7%
 - Best for interpretability
 
 ### 2. Random Forest Classifier 🌲
 ```python
-RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
+RandomForestClassifier(n_estimators=80, max_depth=4, random_state=42)
 ```
 - Accuracy: ~92.86%
 - Best overall performance
 
 ### 3. Support Vector Machine 🎯
 ```python
-SVC(kernel='rbf', C=1.0, probability=True, random_state=42)
+SVC(kernel='rbf', C=0.8, probability=True, random_state=42)
 ```
 - Accuracy: ~85.71%
 - Good for complex boundaries
